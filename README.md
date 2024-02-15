@@ -11,6 +11,6 @@ In Add-one smoothing we Pretend we have seen every n-gram at least once
 **Formula used:**
  p(w1,w2..wn) = c(w1,w2..wn)+1 / c(w1,w2...wn-1)+V
 
-# p(w1,w2..wn) -> probability of the given n-gram
-# c(w1,w2..wn) -> no of time the n-gram appeared in the given data
-# V -> no of unique words in given data (Vocabulary)
+p(w1,w2..wn) -> probability of the given n-gram
+c(w1,w2..wn) -> no of time the n-gram appeared in the given data
+V -> no of unique words in given data (Vocabulary)
